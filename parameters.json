@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_GratitudeFunction1_name": {
+            "value": null
+        },
+        "components_GratitudeFunction1_name": {
+            "value": null
+        },
+        "vaults_MorningGratitudeSecrets_name": {
+            "value": null
+        },
+        "serverfarms_ASP_MorningGratitude_bee1_name": {
+            "value": null
+        },
+        "databaseAccounts_gratitude_cosmos_name": {
+            "value": null
+        },
+        "storageAccounts_morninggratitudeb316_name": {
+            "value": null
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": null
+        },
+        "workspaces_DefaultWorkspace_10b972db_485c_49f9_ad42_e6dfa740ce77_CCAN_externalid": {
+            "value": null
+        }
+    }
+}
