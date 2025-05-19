@@ -16,8 +16,9 @@ export function getTwilioClient () {
     return twilioClient;
 } 
 
+// Run singleton function
 export function getTwilioMessagingResponse() {
-    if (twiml) {
+    if (!twiml) {
         twiml = new MessagingResponse();
     }
 

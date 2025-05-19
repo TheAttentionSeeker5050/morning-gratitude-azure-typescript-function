@@ -31,6 +31,6 @@ export async function MorningGratitudeTimedMsg(myTimer: Timer, context: Invocati
 }
 
 app.timer('MorningTimerMsg', {
-    schedule: '0 0 6 * * *',
+    schedule: '0 0 10 * * *',
     handler: MorningGratitudeTimedMsg
 });
