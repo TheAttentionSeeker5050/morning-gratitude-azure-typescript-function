@@ -9,7 +9,7 @@ let twilioClient: twilio.Twilio | undefined = undefined;
 let twiml: MessagingResponse | undefined = undefined;
 
 // Run singleton function
-export function getTwilioClient () {
+export function getTwilioClient(): twilio.Twilio {
     if (!twilioClient) {
         twilioClient = twilio(accountSid, authToken);
     }
@@ -17,7 +17,7 @@ export function getTwilioClient () {
 } 
 
 // Run singleton function
-export function getTwilioMessagingResponse() {
+export function getTwilioMessagingResponse(): MessagingResponse {
     if (!twiml) {
         twiml = new MessagingResponse();
     }

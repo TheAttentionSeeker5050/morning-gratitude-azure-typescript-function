@@ -9,9 +9,9 @@ export async function MorningGratitudeTimedMsg(myTimer: Timer, context: Invocati
     try {
         const morningGratitudeOpeningMsg: string = `Good morning champ! God gave you the gift of living another day, and that is amazing! name 3 things you are thankful for.`;
     
-        const twilioPhone = process.env['TwilioPhone'];
+        const twilioPhone: string = process.env['TwilioPhone'];
         if (!twilioPhone) throw new Error("Could not retrieve the twilio phone");
-        const myPhone = process.env['MyPhone'];
+        const myPhone: string = process.env['MyPhone'];
         if (!myPhone) throw new Error("Could not retrieve my own phone");
     
         twilioClient.messages
